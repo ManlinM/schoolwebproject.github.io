@@ -1,0 +1,114 @@
+<!doctype html>
+<!--Manlin Mao-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/scripts.js"></script>
+</head>
+
+<body onload="todaysDate()">
+    <div class="navflexcontainer">
+        <div class="navflexitem">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="navflexitem">
+            <a href="TablePage.html">Table</a>
+        </div>
+        <div class="navflexitem">
+            <a href="ImagesPage.html">Images</a>
+        </div>
+        <div class="navflexitem">
+            <a href="Form.html">Form</a>
+        </div>
+        <div class="navflexitem whitespace">&nbsp;</div>
+        <div class="navflexitem socialmedia">
+            <a target=_blank href="https://www.facebook.com/"><img src="./imgs/facebook.png" alt="facebook logo"
+                    height="20" width="20" /></a>
+        </div>
+        <div class="navflexitem socialmedia">
+            <a target=_blank href="https://twitter.com/">
+                <img src="./imgs/twitter.png" alt="twitter logo" height="20" width="20" />
+            </a>
+        </div>
+    </div>
+
+    <h1><span>M's Jungle</span></h1>
+
+    <div class="maincontainer">
+        <h2>Place your order today!</h2>
+        <form action="/jungle">
+            <div>
+                <label for="username">Enter name:</label>
+                <input class="textbox" id="username" type="text" placeholder="Client Name">
+            </div>
+            <div>
+                <label for="address">Enter address:</label>
+                <input class="textbox" id="address" type="text" placeholder="Client Address">
+            </div>
+            <div>
+                <h3>Select Plant Type:</h3>
+                <input type="checkbox" id="planttype1" name="planttype1" value="Pothos">
+                <label for="planttype1">Pothos</label><br>
+                <input type="checkbox" id="planttype2" name="planttype2" value="BOP">
+                <label for="planttype2">Birds of Paradise</label><br>
+                <input type="checkbox" id="planttype3" name="planttype3" value="Hoyas">
+                <label for="planttype3">Hoyas</label><br>
+                <input type="checkbox" id="planttype4" name="planttype4" value="Rubbertree">
+                <label for="planttype4">Rubber Tree</label><br>
+                <input type="checkbox" id="planttype5" name="planttype5" value="Scindapsus">
+                <label for="planttype5">Scindapsus</label><br>
+            </div>
+            <br>
+            <div>
+                <label for="plants">Choose a plant:</label>
+                <select name="plant" id="plants">
+                    <option value="MarbleQueen">Marble Queen</option>
+                    <option value="Jade">Jade</option>
+                    <option value="WhiteNicolai">White Nicolai</option>
+                    <option value="OrangeReginae">Orange Reginae</option>
+                    <option value="Hoyamathilde">Hoya mathilde</option>
+                    <option value="HoyaAustralis">Hoya Australis</option>
+                    <option value="Burgundy">Ficus elastica 'Burgundy'</option>
+                    <option value="Tineke">Ficus elastica 'Tineke'</option>
+                    <option value="SilveryAnne">Silvery Anne</option>
+                    <option value="PictusArgyraeus">Pictus Argyraeus</option>
+                </select>
+            </div>
+
+            <div>
+                <h3>Delivery method:</h3>
+                <label for="pickup">Pick Up</label>
+                <input type="radio" id="pickup" name="deliverymethod" value="pickup">
+                <label for="delivery">Delivery</label>
+                <input type="radio" id="delivery" name="deliverymethod" value="delivery">
+            </div>
+            <br>
+            <div>
+                <label for="date">Choose a date:</label>
+                <input type="date" id="date">
+            </div>
+            <div>
+                <label for="time">Choose a time:</label>
+                <input type="time" id="time">
+            </div>
+            <div>
+                <label for="request">Special Requests: </label>
+                <br>
+                <textarea name="request" id="request" cols="30" rows="5"></textarea>
+            </div>
+            <button>submit</button>
+        </form>
+    </div>
+
+    <div class="footercontainer">
+        <footer>
+            <p id="showDate"></p>
+            Manlin Mao &verbar;Contact us:<a href="mailto:manlin.mao@student.sl.on.ca">manlin.mao@student.sl.on.ca</a>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+<!doctype html>
+<!--Manlin Mao-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/scripts.js"></script>
+</head>
+
+<body onload="todaysDate()">
+    <div class="navflexcontainer">
+        <div class="navflexitem">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="navflexitem">
+            <a href="TablePage.html">Table</a>
+        </div>
+        <div class="navflexitem">
+            <a href="ImagesPage.html">Images</a>
+        </div>
+        <div class="navflexitem">
+            <a href="Form.html">Form</a>
+        </div>
+        <div class="navflexitem whitespace">&nbsp;</div>
+
+        <div class="navflexitem socialmedia">
+            <a target=_blank href="https://www.facebook.com/"><img src="./imgs/facebook.png" alt="facebook logo"
+                    height="20" width="20" /></a>
+        </div>
+        <div class="navflexitem socialmedia">
+            <a target=_blank href="https://twitter.com/">
+                <img src="./imgs/twitter.png" alt="twitter logo" height="20" width="20" />
+            </a>
+        </div>
+    </div>
+
+    <div class="maincontainer">
+        <h1><span>M's Jungle </span></h1>
+        <h2>Tips, tricks, and plant care.</h2>
+        <table id="changeTable">
+            <tr>
+                <th colspan="5">Jungle List</th>
+            </tr>
+            <tr>
+                <th>Plant</th>
+                <th>Price</th>
+                <th>Types</th>
+                <th>Description</th>
+                <th>Care tips</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Pothos</th>
+                <td>$19.99</td>
+                <td>Marble Queen</td>
+                <td>Green foliage with white splashes</td>
+                <td rowspan="2">
+                    <ul>
+                        <li>Sun:Indirect</li>
+                        <li>Light:Medium-Low</li>
+                        <li>Water:When mostly dry</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>$14.99</td>
+                <td>Jade</td>
+                <td>Full green foliage</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Birds of Paradise</th>
+                <td>$10.99</td>
+                <td>White Nicolai</td>
+                <td>Will have white bird-like flower</td>
+                <td rowspan="2">
+                    <ul>
+                        <li>Sun:Direct & Indirect</li>
+                        <li>Light:Bright</li>
+                        <li>Water:When half dry</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>$11.99</td>
+                <td>Orange Reginae</td>
+                <td>Will have orange bird-like flower</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Hoyas</th>
+                <td>$29.99</td>
+                <td>Hoya mathilde</td>
+                <td>Rounded succulent like leaf with white splashes</td>
+                <td rowspan="2">
+                    <ul>
+                        <li>Sun:Indirect</li>
+                        <li>Light:Medium-Bright</li>
+                        <li>Water:When mostly dry</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>$19.99</td>
+                <td>Hoya Australis</td>
+                <td>Green wax foliage</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Rubber Tree</th>
+                <td>$11.99</td>
+                <td>Ficus elastica ‘Burgundy’</td>
+                <td>Large dark leaves with burgundy-colored stems</td>
+                <td rowspan="2">
+                    <ul>
+                        <li>Sun:Indirect</li>
+                        <li>Light:Medium</li>
+                        <li>Water:When mostly dry</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>$29.99</td>
+                <td>Ficus elastica ‘Tineke’</td>
+                <td>Large leaves with green in the middle and white around the edges</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Scindapsus</th>
+                <td rowspan="2">$14.99</td>
+                <td>Silvery Anne</td>
+                <td>Light-green foliage with dipped silver color</td>
+                <td rowspan="2">
+                    <ul>
+                        <li>Sun:Indirect</li>
+                        <li>Light:Medium-Low</li>
+                        <li>Water:When mostly dry</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Pictus Argyraeus</td>
+                <td>Light-green foliage with silver splashes</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="button">
+        <button onclick="changeTable()">Change Table</button>
+    </div>
+
+    <div class="footercontainer">
+        <footer>
+            <p id="showDate"></p>
+            Manlin Mao &verbar;Contact us:<a href="mailto:manlin.mao@student.sl.on.ca">manlin.mao@student.sl.on.ca</a>
+        </footer>
+    </div>
+</body>
+
+</html>
