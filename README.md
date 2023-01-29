@@ -1,2 +1,12 @@
-# schoolwebproject.github.io
-Created a webpage for a plant shop with most commonly used HTML elements, and used CSS to maintain the presentation of the elements diplayed in the web page.
+# School Web Development Project
+
+# How to view
+Click https://manlinm.github.io/schoolwebproject.github.io/index.html to view the page on your browser!
+---
+# What I learned
+* Foundamentals of HTML & CSS
+* Troubleshoot,document and monitor technical problems use appropriate methodologies and tools
+  * ie. W3 schools
+  * Markup Validation Service
+  * Devtools
+* Understand business requirements and apply to the development process
